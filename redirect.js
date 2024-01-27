@@ -6,9 +6,9 @@ function handler(event) {
     var isDesktop = headers['cloudfront-is-desktop-viewer'] && headers['cloudfront-is-desktop-viewer'].value === 'true';
 
     var redirectUrls = {
-      'isMobile': 'http://lexarsm.s3-website-us-east-1.amazonaws.com/mobile',  // Example mobile URL
-      'isDesktop': 'http://lexarsm.s3-website-us-east-1.amazonaws.com/desktop', // Example desktop URL
-      'Default': 'http://lexarsm.s3-website-us-east-1.amazonaws.com'           // Default URL
+      'isMobile': 'lauracollins.net',  // Example mobile URL
+      'isDesktop': 'lauracollins.net', // Example desktop URL
+      'Default': 'lauracollins.net'           // Default URL
     };
 
     var redirectUrl;
